@@ -45,6 +45,14 @@ fun colorButtonType2() = ButtonDefaults.buttonColors(
 )
 
 @Composable
+fun colorButtonType3() = ButtonDefaults.buttonColors(
+    containerColor = InputBg,
+    disabledContainerColor = InputBg,
+    contentColor = Description,
+    disabledContentColor = Description
+)
+
+@Composable
 fun colorInput() = OutlinedTextFieldDefaults.colors(
     cursorColor = Accent,
     focusedBorderColor = Accent,
