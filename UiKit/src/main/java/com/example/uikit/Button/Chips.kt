@@ -20,14 +20,13 @@ import com.example.uikit.UI.colorButtonType3
 fun Chips(
     text: String,
     onClick: () -> Unit,
-    state: Boolean = true
+    state: Boolean
 ){
 
     Button(
-        onClick,
+        onClick = onClick,
         modifier = Modifier
             .height(48.dp),
-        enabled = state,
         contentPadding = PaddingValues(horizontal = 20.dp, vertical = 14.dp),
         colors = if (state) colorButton() else colorButtonType3(),
         shape = RoundedCornerShape(10.dp)

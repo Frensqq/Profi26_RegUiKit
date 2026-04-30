@@ -55,8 +55,8 @@ fun TestButton(){
         BigButton("Подтвердить", {}, false)
         SmallButton("Убрать", {}, false)
         SmallButton("Добавить", {}, true)
-        Chips("Популярные", {}, true)
-        Chips("Популярные", {}, false)
+        //Chips("Популярные", {}, true)
+        //Chips("Популярные", {}, false)
 
         CardButton("100", {})
         ButtonBack({})
